@@ -198,6 +198,20 @@ body {
     gap: 15px;
 }
 
+.dataInputField {
+    position: relative;
+}
+
+.dataInputField img {
+    position: absolute;
+    right: 14px;
+    top: 12.5px;
+}
+
+.dataInputField input {
+    width: 57px;
+}
+
 .select {
     padding: 6px 15px;
     border: solid 1px #0000001A;
