@@ -17,17 +17,24 @@ body {
 }
 
 .header {
+    width: 100%;
     position: sticky;
     font-family: Open Sans;
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background-color: var(--color-header);
     color: white;
     font-size: 16px;
+}
+
+.header_container {
     padding-left: 30px;
+    width: 100%;
     padding-right: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-left {
@@ -162,6 +169,7 @@ body {
 }
 
 .content {
+    overflow-x: hidden;
     padding-top: 60px;
     padding-left: 53px;
     padding-right: 53px;
@@ -173,6 +181,7 @@ body {
     display: flex;
     align-items: start;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .plan {
@@ -214,6 +223,7 @@ body {
 }
 
 .select {
+    width: 100%;
     padding: 6px 15px;
     border: solid 1px #0000001A;
     border-radius: 5px;
