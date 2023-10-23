@@ -246,7 +246,7 @@ body {
     justify-content: space-between;
     padding: 10px 11px 10px 15px;
     background-color: white;
-    width: 407px;
+    width: 100%;
 }
 
 .data_input p {
